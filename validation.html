@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="src/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<section>
+    <div class="d-flex justify-content-center">
+      <div class="col-md-8 mb-4">
+        <div class="card mb-4">
+          <div class="card-header py-3">
+            <h3 class="mb-0">Validation Form</h3>
+          </div>
+          <div class="card-body">
+            <form action="/hp/homepage.html">
+              <h3>Select the category</h3>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm3"/>
+                <label class="form-check-label" for="checkoutForm3">
+                  VIP
+                </label>
+              </div>
+  
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm4"/>
+                <label class="form-check-label" for="checkoutForm4">
+                  Premium
+                </label>
+              </div>
+  
+              <div class="form-check mb-4">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="checkoutForm5"/>
+                <label class="form-check-label" for="checkoutForm5">
+                  Basic
+                </label>
+              </div>
+
+              <h3>Select</h3>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkoutForm1"/>
+                <label class="form-check-label" for="checkoutForm1">
+                  Breakfast
+                </label>
+              </div>
+  
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkoutForm2"/>
+                <label class="form-check-label" for="checkoutForm2">
+                  Lunch
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="checkoutForm3"/>
+                <label class="form-check-label" for="checkoutForm3">
+                  Dinner
+                </label>
+              </div>
+              <br>
+              
+              Pick a date<br>
+              <input class="form-control w-100" type="date" required>
+              <br><br>
+
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+              <div class="row mb-4">
+                <div class="col">
+                  <div class="form-outline">
+                    <label class="form-label" for="form6Example1">Name</label>
+                    <input type="text" id="form6Example1" class="form-control" placeholder="Name" required/>
+                  </div>
+                </div>
+              </div>
+  
+              <!-- Text input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form6Example3">Phone</label>
+                <input type="tel" id="form6Example3" class="form-control" placeholder="Phone" required/>
+              </div>
+  
+              <!-- Text input -->
+              <textarea id="exampleFormControlTextarea1" rows="3" placeholder="Message:" class="w-100" required></textarea>
+              <br><br>
+  
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <label class="form-label" for="form6Example5">Send to Email</label>
+                <input type="email" id="form6Example5" class="form-control" placeholder="name@example.com" required/>
+              </div>
+  
+                <a href="hp/homepage.html">
+                  <button class="btn btn-primary btn-lg btn-block" type="submit">
+                  Send
+                  </button>
+                </a>
+              
+              <button class="btn btn-primary btn-lg btn-block" type="reset">
+                Reset
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
